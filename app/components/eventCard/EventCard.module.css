@@ -53,3 +53,13 @@
   letter-spacing: 1.15px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 500px) {
+  .contentBottom {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .header {
+    font-size: 16px;
+  }
+}
