@@ -3,6 +3,7 @@ import styles from "./Profile.module.css";
 import ProfileCard from "../components/profileCard/ProfileCard";
 import SocialCircles from "../components/socialCircles/SocialCircles";
 import ButtonHeader from "../components/buttonHeader/ButtonHeader";
+import ProfileBrief from "../components/profileBrief/ProfileBrief";
 
 const Profile = () => {
   return (
@@ -43,6 +44,16 @@ const Profile = () => {
           <ButtonHeader
             dotColour="#FF4000"
             text="Award winning DJ & Radio Presenter"
+          />
+        </div>
+
+        {/* Profile Brief section */}
+
+        <div className={styles.container}>
+          <ProfileBrief
+            imgUrl="/images/1XTRA-image.png"
+            alt="1XTRA"
+            text="BBC 1XTRA Radio Shows"
           />
         </div>
       </div>
