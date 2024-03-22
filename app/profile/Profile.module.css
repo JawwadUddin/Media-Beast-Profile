@@ -13,3 +13,8 @@
   width: min(100%, 228px);
   margin-top: 63px;
 }
+
+.container {
+  width: min(100%, 458px);
+  position: relative;
+}
