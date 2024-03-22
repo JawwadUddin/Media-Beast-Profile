@@ -109,6 +109,9 @@ const Profile = () => {
         {/* YT Shorts section */}
         <div className={styles.container}>
           <div className={styles.shortContainer}>
+            <div className={styles.shortArrow}>
+              <img src="/images/arrow-right.png" alt="right-arrow" />
+            </div>
             <YTShorts imgUrl="/images/YT%20Short%201.png" imgAlt="Short 1" />
             <YTShorts imgUrl="/images/YT%20Short%202.png" imgAlt="Short 2" />
           </div>
