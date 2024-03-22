@@ -95,6 +95,15 @@ const Profile = () => {
             time="19 hours ago"
           />
         </div>
+
+        {/* Button Header - YT Shorts */}
+
+        <div
+          className={styles.container}
+          style={{ marginTop: "36px", marginBottom: "42px" }}
+        >
+          <ButtonHeader dotColour="#FF0000" text="YOUTUBE SHORTS" />
+        </div>
       </div>
     </div>
   );
