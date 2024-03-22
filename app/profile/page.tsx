@@ -5,7 +5,8 @@ import SocialCircles from "../components/socialCircles/SocialCircles";
 import ButtonHeader from "../components/buttonHeader/ButtonHeader";
 import ProfileBrief from "../components/profileBrief/ProfileBrief";
 import MixCard from "../components/mixCard/MixCard";
-import YTShorts from "../components/ytShorts/Ytshorts";
+import YTShorts from "../components/ytShorts/YTShorts";
+import EventCard from "../components/eventCard/EventCard";
 
 const Profile = () => {
   return (
@@ -124,6 +125,17 @@ const Profile = () => {
           style={{ marginTop: "42px", marginBottom: "32px" }}
         >
           <ButtonHeader dotColour="#FFFFFF" text="LATEST EVENT" />
+        </div>
+
+        {/* Event Card section */}
+        <div className={styles.container} style={{ marginBottom: "77px" }}>
+          <EventCard
+            imgUrl="/images/Event%20Card.png"
+            date="FRI 29TH MAR"
+            header="30 Years Of Day Day + Donae'O Live! Friday 29th March…"
+            location="XOYO Birmingham"
+            price="FROM £25.00"
+          />
         </div>
       </div>
     </div>
