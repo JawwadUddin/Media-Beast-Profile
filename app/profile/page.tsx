@@ -23,7 +23,15 @@ const Profile = () => {
 
         {/* Socials section */}
 
-        <SocialCircles fbUrl="url" />
+        <SocialCircles
+          fbUrl="url"
+          xUrl="url"
+          instaUrl="url"
+          ytUrl="url"
+          tiktokUrl="url"
+          whatsappUrl="url"
+          snapchatUrl="url"
+        />
       </div>
     </div>
   );
