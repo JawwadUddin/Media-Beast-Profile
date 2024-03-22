@@ -70,6 +70,18 @@ const Profile = () => {
             text="DJ DAY DAY Mechandise"
           />
         </div>
+
+        {/* Button Header - MIX */}
+
+        <div
+          className={styles.container}
+          style={{ marginTop: "44px", marginBottom: "41px" }}
+        >
+          <ButtonHeader
+            dotColour="#FF8600"
+            text="NEW MIX LIVE - TAKE A LISTEN"
+          />
+        </div>
       </div>
     </div>
   );
