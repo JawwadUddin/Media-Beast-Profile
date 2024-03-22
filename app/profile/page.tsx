@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Profile.module.css";
 import ProfileCard from "../components/profileCard/ProfileCard";
 import SocialCircles from "../components/socialCircles/SocialCircles";
+import ButtonHeader from "../components/buttonHeader/ButtonHeader";
 
 const Profile = () => {
   return (
@@ -32,6 +33,18 @@ const Profile = () => {
           whatsappUrl="url"
           snapchatUrl="url"
         />
+
+        {/* Button Header - Award */}
+
+        <div
+          className={styles.container}
+          style={{ marginTop: "28px", marginBottom: "34px" }}
+        >
+          <ButtonHeader
+            dotColour="#FF4000"
+            text="Award winning DJ & Radio Presenter"
+          />
+        </div>
       </div>
     </div>
   );
