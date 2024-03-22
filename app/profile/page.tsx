@@ -7,6 +7,7 @@ import ProfileBrief from "../components/profileBrief/ProfileBrief";
 import MixCard from "../components/mixCard/MixCard";
 import YTShorts from "../components/ytShorts/YTShorts";
 import EventCard from "../components/eventCard/EventCard";
+import CreateBloco from "../components/createBloco/CreateBloco";
 
 const Profile = () => {
   return (
@@ -138,6 +139,10 @@ const Profile = () => {
           />
         </div>
       </div>
+
+      {/* Create bloco section */}
+
+      <CreateBloco />
     </div>
   );
 };
