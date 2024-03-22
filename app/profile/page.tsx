@@ -49,11 +49,25 @@ const Profile = () => {
 
         {/* Profile Brief section */}
 
-        <div className={styles.container}>
+        <div className={styles.container} style={{ marginBottom: "22px" }}>
           <ProfileBrief
             imgUrl="/images/1XTRA-image.png"
             alt="1XTRA"
             text="BBC 1XTRA Radio Shows"
+          />
+        </div>
+        <div className={styles.container} style={{ marginBottom: "22px" }}>
+          <ProfileBrief
+            imgUrl="/images/Youtube%20Image%20Profile.png"
+            alt="Youtube profile"
+            text="DJ DAY DAY Youtube Channel"
+          />
+        </div>
+        <div className={styles.container}>
+          <ProfileBrief
+            imgUrl="/images/Merchandise%20Shop.png"
+            alt="DJ DAY DAY Merchandise"
+            text="DJ DAY DAY Mechandise"
           />
         </div>
       </div>
