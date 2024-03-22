@@ -1,0 +1,12 @@
+.shortComponent {
+  height: 361px;
+  min-width: 217px;
+  border-radius: 10px;
+  background-color: rgba(216, 216, 216, 1);
+  overflow: hidden;
+}
+
+.shortComponent img {
+  width: 100%;
+  height: 100%;
+}
