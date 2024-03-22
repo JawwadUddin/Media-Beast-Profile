@@ -8,6 +8,7 @@ import MixCard from "../components/mixCard/MixCard";
 import YTShorts from "../components/ytShorts/YTShorts";
 import EventCard from "../components/eventCard/EventCard";
 import CreateBloco from "../components/createBloco/CreateBloco";
+import Footer from "../components/footer/Footer";
 
 const Profile = () => {
   return (
@@ -143,6 +144,10 @@ const Profile = () => {
       {/* Create bloco section */}
 
       <CreateBloco />
+
+      {/* Footer section */}
+
+      <Footer />
     </div>
   );
 };
