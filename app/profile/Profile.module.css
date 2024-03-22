@@ -1,0 +1,15 @@
+.profile {
+  padding: 0 30px;
+  width: min(100%, 700px);
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 228px;
+  margin-top: 63px;
+}
