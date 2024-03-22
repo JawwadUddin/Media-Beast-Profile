@@ -10,6 +10,6 @@
 }
 
 .logo {
-  width: 228px;
+  width: min(100%, 228px);
   margin-top: 63px;
 }
