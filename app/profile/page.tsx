@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Profile.module.css";
 import ProfileCard from "../components/profileCard/ProfileCard";
+import SocialCircles from "../components/socialCircles/SocialCircles";
 
 const Profile = () => {
   return (
@@ -19,6 +20,10 @@ const Profile = () => {
         {/* Profile card section */}
 
         <ProfileCard imgUrl="/images/Profile%20Image.png" />
+
+        {/* Socials section */}
+
+        <SocialCircles fbUrl="url" />
       </div>
     </div>
   );
