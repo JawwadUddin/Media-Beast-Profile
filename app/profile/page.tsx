@@ -116,6 +116,15 @@ const Profile = () => {
             <YTShorts imgUrl="/images/YT%20Short%202.png" imgAlt="Short 2" />
           </div>
         </div>
+
+        {/* Button Header - Event */}
+
+        <div
+          className={styles.container}
+          style={{ marginTop: "42px", marginBottom: "32px" }}
+        >
+          <ButtonHeader dotColour="#FFFFFF" text="LATEST EVENT" />
+        </div>
       </div>
     </div>
   );
