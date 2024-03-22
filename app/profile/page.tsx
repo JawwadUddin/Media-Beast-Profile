@@ -5,6 +5,7 @@ import SocialCircles from "../components/socialCircles/SocialCircles";
 import ButtonHeader from "../components/buttonHeader/ButtonHeader";
 import ProfileBrief from "../components/profileBrief/ProfileBrief";
 import MixCard from "../components/mixCard/MixCard";
+import YTShorts from "../components/ytShorts/Ytshorts";
 
 const Profile = () => {
   return (
@@ -103,6 +104,14 @@ const Profile = () => {
           style={{ marginTop: "36px", marginBottom: "42px" }}
         >
           <ButtonHeader dotColour="#FF0000" text="YOUTUBE SHORTS" />
+        </div>
+
+        {/* YT Shorts section */}
+        <div className={styles.container}>
+          <div className={styles.shortContainer}>
+            <YTShorts imgUrl="/images/YT%20Short%201.png" imgAlt="Short 1" />
+            <YTShorts imgUrl="/images/YT%20Short%202.png" imgAlt="Short 2" />
+          </div>
         </div>
       </div>
     </div>

@@ -18,3 +18,10 @@
   width: min(100%, 458px);
   position: relative;
 }
+
+.shortContainer {
+  display: flex;
+  overflow-x: scroll;
+  justify-content: space-between;
+  gap: 20px;
+}
